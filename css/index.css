@@ -1,0 +1,102 @@
+header{
+    background-color: rgb(104, 110, 110);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    
+    
+
+}
+    nav ul{
+        display: flex;
+        list-style: none;
+        background-color: rgb(102, 100, 97);
+        margin: auto;
+        padding: 0;
+        justify-content: center;
+
+
+    }
+    nav ul li{
+        margin:0 15px
+    }
+
+    nav ul li{
+        color: beige;
+        text-decoration: aqua;
+        padding: 10px;
+        display: block;
+    }
+    nav ul li a:hover{
+
+        background-color: azure;
+    }
+
+    main{
+        display: flex;
+        padding: 2rem;
+
+    }
+
+    .content{   
+        flex: 3;
+        padding-right: 2rem;
+
+    }
+
+    aside{
+        flex: 1;
+        background-color: rgba(60, 78, 78, 0.384);
+        padding: 1rem;
+        border-left: 1px solid #ccc;
+
+
+    }
+
+    aside nav ul{
+        list-style: none;
+        padding: 0;
+        display:flex;
+        flex-direction: column;
+        gap: 10px;
+
+    }
+    
+    aside nav ul li a{
+        color: aliceblue;
+        text-decoration: none;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+
+    }
+
+    aside nav ul li a:hover{
+        text-decoration: underline;
+        color: aliceblue;
+
+    }
+
+    article{
+        margin-bottom: 2rem;
+
+
+    }
+
+    section{
+        margin-bottom: 2rem;
+
+    }
+
+    footer{
+        background-color: rgb(184, 184, 180);
+        color: white;
+        text-align: center;
+        padding: 1rem;
+
+    }
+
+
+
+

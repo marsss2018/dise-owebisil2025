@@ -1,0 +1,11 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: solid;
+    margin: 0%;
+    padding: 0%;
+
+}
